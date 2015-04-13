@@ -1,0 +1,6 @@
+Variables declared inside a function body have local scope.
+Local scope variables can be seen and used within the function that declares them.
+
+
+
+

@@ -1,0 +1,8 @@
+Multiple file projects
+
+When compiling just do:
+
+$ g++ main.cpp add.cpp -o main
+
+
+

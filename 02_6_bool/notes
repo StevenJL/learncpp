@@ -1,0 +1,7 @@
+boolean values are only true (1) or false (0)
+
+true and false exist in C++ but when you print them, they come out as 1 and 0
+
+0 resolves to false and all non-zero integers resolve to true
+
+

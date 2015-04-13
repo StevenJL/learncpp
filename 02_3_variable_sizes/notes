@@ -1,0 +1,29 @@
+Memory is organized into byte-sized units.
+Each unit has a unique address.
+However, most variables take more than one byte.   
+
+Size of C++ basic types
+
+#boolean
+bool            | 1 byte
+
+# characters
+char            | 1 byte
+wchar_t         | 1 byte
+char16_t        | 2 byte
+char32_t        | 4 byte
+
+
+# integers
+short           | 2 byte
+int             | 2 byte
+long            | 4 byte
+long long       | 8 byte
+
+
+# floating point
+float           | 4 byte
+double          | 8 byte
+long double     | 8 byte
+
+# size_of

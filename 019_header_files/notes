@@ -1,0 +1,38 @@
+Header files hold declarations for use in other files
+Header files typically only contain declarations
+
+For example
+#include <iostream>
+includes the iostream.hpp file
+This file only defines the declaration, not the function.
+The function definition is defined in the C++ runtime support library.
+
+If not for 
+#include <iostream>
+You would have to type in all the declarations iostream
+in the main.cpp
+
+HEADER FILES
+header files have `header guard` which prevents a given header
+file from being include more than once in the same file
+
+Q: Why doesnt iostream have .h extension?
+A: Because iostream.h is a different file from iostream
+
+Compiling
+g++ main.cpp add.cpp -o main
+
+# if you have header files in an other directory, do this
+g++ -o main -I /source/includes main.cpp
+# use the -I option to specify an alternate include directory
+
+
+
+
+
+
+
+
+
+
+

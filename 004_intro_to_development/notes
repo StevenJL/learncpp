@@ -1,0 +1,15 @@
+# Compiling
+g++ -c file1.cpp file2.cpp file3.cpp
+# will produce file1.o, file2.o, file3.o (object files)
+
+# Linking
+g++ -o prog file1.o file2.o file3.o
+# links all these object fiels into one executable
+
+# Compile and Link in one step
+g++ -o prog file1.cpp file2.cpp file3.cpp
+
+
+
+
+

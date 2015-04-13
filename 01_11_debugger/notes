@@ -1,0 +1,17 @@
+GDB (Gnu Debugger)
+
+On Mac OS X, I couldn't get gdb working
+but there is lldb
+
+g++ buggy_prog.cpp -g -o buggy_prog
+lldb buggy_prog
+(lldb) breakpoint set --file buggy_prog.cpp --line 11
+(lldb) breakpoint list
+(lldb) process continue
+(lldb) watch set var x
+(lldb) watch list
+
+(lldb) run
+
+
+
