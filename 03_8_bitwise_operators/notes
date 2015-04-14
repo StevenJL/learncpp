@@ -1,0 +1,18 @@
+Back in the day, computers had limited memory.
+
+Even though a bool is just 1 or 0 and should take only
+1 bit, it takes up 8 bytes.  The other 7 bits go to
+waste.
+
+Using bitwise operators, we can compact 8 booleans
+into a single byte.
+
+left shift    <<  x << y  all bits in x shifted left y bits
+right shift   >>  x >> y  all bits in x shifted right y bits
+bitwise NOT   ~   ~x      all bits in x flipped
+bitwise AND   &   x & y   each bit in x AND each bit in y
+bitwise OR    |   x | y   each bit in x OR each bit in y
+bitwise XOR   ^   x ^ y   each bit in x XOR each bit in y
+
+
+
